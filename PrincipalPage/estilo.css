@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    background-color: #ffffff;
+    font-family: "Roboto", sans-serif;
+    margin: 5%;
+}
+main{
+    max-width: 800px;
+    margin: auto;
+    padding: 20PX;
+    .carousel {
+        
+    }
+}
+
+header{
+    text-align: center;
+    color: rgb(238, 255, 2);
+    padding: 20px 0;
+    border-radius: 8px 8px 0 0;
+    background-image: url('./img/goku.jpeg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+header figure img{
+    border-radius: 50%;
+    border: 5px solid #ffe600;
+    box-shadow: 0px 0px 10px;
+    object-fit: cover;
+
+}
+header h1{
+    font-size: 2em;
+    margin-top: 10px;
+}
+
+header H2{
+    font-size: 1.2em;
+    opacity: 0.7;
+}
+
+.contenedor{
+    background-color: rgb(255, 230, 0);
+    width: 80%;
+    margin: 0 auto;
+    position: relative;
+    z-index: 1;
+}
+
+.contenedor_foto_perfil{
+    width: 280px;
+    height: 280px;
+    border-radius: 50%;
+    overflow: hidden;
+    display: inline-block;
+    vertical-align: middle;
+    border: 7px solid #216cae;
+    margin: 5%;
+    box-shadow: 0px 0px 20px rgba(0,0,0,0.5) ;
+    
+}
+
+.contenedor_foto_perfil lmg{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+img{
+    object-fit: cover; 
+} 
+
+.cabecera{
+    position: relative;
+}
+
+.nombre_puesto{
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 1%;
+    text-shadow: 0px 0px 20px rgba(0,0,0,0.5);
+}
+
+h3{
+    font-size: 1.4cm;
+    margin-top: 20px;
+    color: rgba{14,16,16,0.1};
+}
+
+section{
+    background-color: #f7e6e6;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+
+}
+
+select hr{
+    border: 0;
+    height: 2px;
+    background: #ffffff;
+    margin: 10px 0;
+}
+
+ul{
+    list-style: none;
+    margin
+}
+
+ul li{
+    padding: 5px 0;
+}
+
+i{
+    color: #f7e6e6;
+    margin-right: 8px;
+}
+
+address p{
+    margin: 5px 0;
+}
+
+address a{
+    color: #216cae;
+    text-decoration: none;
+}
+
+h4{
+    margin-bottom: 15px;
+}
